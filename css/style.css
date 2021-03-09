@@ -7,7 +7,8 @@ basic styles
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -17,4 +18,92 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #f91257;
+}
+
+a:hover span {
+  color: white;
+}
+
+.logo, nav > a {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.logo span, nav > a span {
+  color: #f91257;
+}
+
+nav {
+  background-color: #09192c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px 60px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 50px;
+}
+
+nav ul li:last-child {
+  margin-left: 0;
+}
+
+footer {
+  background-color: #09192c;
+  text-align: center;
+  padding: 80px 0;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=style.css.map */
