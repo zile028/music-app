@@ -1,0 +1,30 @@
+/******************************
+variables
+******************************/
+$navPlava: #09192c; 
+$tamnoPlava: #0b193c;
+$pink: #f91257;
+$bela: white;
+$svetloSiva: #f8f8f8;
+$fontColor: #0b193c;
+$violet: #383c6e;
+$font: 16px;
+$padding: 80px 0;
+$fontFamily: 'Montserrat', sans-serif;
+$transition: .3s ease;
+
+
+/******************************
+basic styles
+******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: $font;
+    color: $fontColor;
+    font-family: $fontFamily;
+    line-height: 1.5;
+}
